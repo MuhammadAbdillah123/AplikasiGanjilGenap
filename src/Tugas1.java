@@ -189,7 +189,7 @@ public class Tugas1 extends javax.swing.JFrame {
 
                 JOptionPane.showMessageDialog(this, "Angka " + angka + " adalah " + hasilGanjilGenap + " " + hasilPrima, "Hasil", JOptionPane.INFORMATION_MESSAGE);
             } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(this, "Masukkan angka yang valid!", "Error", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(this, "Masukkan angka yang valid!!!", "Error", JOptionPane.ERROR_MESSAGE);
             }
         } else {
             JOptionPane.showMessageDialog(this, "Masukkan angka terlebih dahulu", "Input Kosong", JOptionPane.WARNING_MESSAGE);
