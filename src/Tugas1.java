@@ -192,7 +192,7 @@ public class Tugas1 extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, "Masukkan angka yang valid!!!", "Error", JOptionPane.ERROR_MESSAGE);
             }
         } else {
-            JOptionPane.showMessageDialog(this, "Masukkan angka terlebih dahulu", "Input Kosong", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Masukkan angka terlebih dahulu!", "Input Kosong!", JOptionPane.WARNING_MESSAGE);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
