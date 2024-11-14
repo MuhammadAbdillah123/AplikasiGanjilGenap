@@ -185,7 +185,7 @@ public class Tugas1 extends javax.swing.JFrame {
             try {
                 int angka = Integer.parseInt(input);
                 String hasilGanjilGenap = (angka % 2 == 0) ? "Genap" : "Ganjil";
-                String hasilPrima = isPrima(angka) ? "dan juga merupakan bilangan prima." : "dan bukan bilangan prima.";
+                String hasilPrima = isPrima(angka) ? "dan juga merupakan bilangan prima!" : "dan bukan bilangan prima!";
 
                 JOptionPane.showMessageDialog(this, "Angka " + angka + " adalah " + hasilGanjilGenap + " " + hasilPrima, "Hasil", JOptionPane.INFORMATION_MESSAGE);
             } catch (NumberFormatException ex) {
